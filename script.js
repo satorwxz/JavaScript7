@@ -10,15 +10,15 @@
 //Дан массив с числами. Проверьте то, что все элементы в массиве больше нуля.
 // [1, 2, 3, 0, 4, 5, 6]
 // const arr = [1, 2, 3, 0, 4, 5, 6];
-// const arr2 = arr.every(el => el >= 0);
-// console.log(arr2);
+// const arr2 = arr.filter(el => el >= 0).length ;
+// console.log(!!arr2);
 
 //Задание 3
 //Дан массив с числами. Проверьте то, что в нем есть отрицательные элементы.
 // [1, 2, -3, 0, 4, -5, 6]
-// const num =[1, 2, -3, 0, 4, -5, 6]
-// const newNum=num.some(el => el < 0)
-// console.log(newNum)
+// const num =[1, 2, -3, 0, 4, -5, 6];
+// const newNum=num.filter(el => el < 0).length;
+// console.log(!!newNum)
 
 
 
